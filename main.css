@@ -1,0 +1,45 @@
+/* Container holding the image and the text */
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-main{
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    position: relative;
+    color: white;
+}
+
+.text-paragraph{
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+    color: white;
+}
+
+.image-left{
+    text-align: left;
+    position: absolute;
+    top: 10rem;
+    right: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style for the image */
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+/* Centered text */
+.image-container .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+}
